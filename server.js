@@ -6,7 +6,7 @@ dotenv.config();
 const app = express();
 
 app.get('/',(req,res)=>{
-    res.send("<h1>Welcome to ecommerce website</h1>");
+    res.send("<h1>Welcome to ecommerce website Day2</h1>");
 });
 
 const PORT = process.env.PORT || 8080;
